@@ -1,0 +1,59 @@
+.App {
+  max-width: 80vh;
+  height: 80vh;
+  margin: 0 auto;
+  color: #293264;
+}
+
+.question-container {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid lightgray;
+  padding: 2rem;
+}
+
+.question {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.answer {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1.5rem;
+  border: 2px solid #293264;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.quiz-btn {
+  text-align: center;
+  margin: 0 auto;
+  background: #4d5b9e;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 15px;
+}
+
+.game-control {
+  display: flex;
+  margin: 2rem auto;
+  padding: 0 3rem;
+  justify-content: space-between;
+}
+
+.welcome-page {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
